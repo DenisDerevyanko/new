@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mayflower/holiday": "dev-master"
+    }
+}

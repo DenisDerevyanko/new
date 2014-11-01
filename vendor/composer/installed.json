@@ -1,0 +1,41 @@
+[
+    {
+        "name": "mayflower/holiday",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Mayflower/libholiday.git",
+            "reference": "93b06e76b46af9a25c58fbd3a40468dd3357aa89"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Mayflower/libholiday/zipball/93b06e76b46af9a25c58fbd3a40468dd3357aa89",
+            "reference": "93b06e76b46af9a25c58fbd3a40468dd3357aa89",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2014-09-03 15:15:52",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Holiday": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "David Soria Parra",
+                "email": "david.soria_parra@mayflower.de",
+                "role": "Developer"
+            }
+        ],
+        "description": "A library to calculate holidays"
+    }
+]
